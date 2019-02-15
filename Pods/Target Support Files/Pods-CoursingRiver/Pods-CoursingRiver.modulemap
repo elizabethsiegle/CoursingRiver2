@@ -1,0 +1,6 @@
+framework module Pods_CoursingRiver {
+  umbrella header "Pods-CoursingRiver-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MarkovModel (1.0.2)
+
+DEPENDENCIES:
+  - MarkovModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MarkovModel
+
+SPEC CHECKSUMS:
+  MarkovModel: 0581e1f24478a6b051fbff96a92a81e4f4508711
+
+PODFILE CHECKSUM: 2294e847ccfe391371ff07f0c5e758c6216cbc24
+
+COCOAPODS: 1.6.0

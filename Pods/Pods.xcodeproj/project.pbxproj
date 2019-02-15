@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10484B076F405FD7CB9571328F83BFC0 /* MarkovModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DF829618739AA926DA8BC47FE588 /* MarkovModel.swift */; };
+		15A8FCB266EB36BD9982AB4D50B6BE8C /* MarkovModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C31FCE48A365E58008EB96DF810DA2D /* MarkovModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320B2BEA66AB4970A55EDF637196E966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		61E1B4F58B1024D06A1BDA0CC270498B /* MarkovModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B700A3097E31D6FB13E60A0CD63192B0 /* MarkovModel-dummy.m */; };
+		6ED1CE8BB42D9E4E9D63D90DE41EF778 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED29E9810F7479CDA76A69FD8402697 /* Matrix.swift */; };
+		701AFD217290878873B66A3F79D9EEC4 /* Pods-CoursingRiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E4B9FBAE0C6E30F4F0019D3AD9FACC /* Pods-CoursingRiver-dummy.m */; };
+		7BF7CBC44893C64C5FDD2BF41350F282 /* Pods-CoursingRiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F4781407A37BD821E4021567CBDD4D /* Pods-CoursingRiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEEFEB9E713187789A01CE4CFA362F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F8F4A0FCA4E6E4FF272697458DE4D4FB /* MarkovModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0AF96F6E7F1883E7BDB52E3A6DF550 /* MarkovModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D824B4DCCB058B5B4C4731D9ED34E44D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A448226EAF53989EF6594CBF526CFF94;
+			remoteInfo = MarkovModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097EA61B4822A9521421CA74BE7A7F16 /* Pods-CoursingRiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoursingRiver-frameworks.sh"; sourceTree = "<group>"; };
+		1ED29E9810F7479CDA76A69FD8402697 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = MarkovModel/Sources/Matrix.swift; sourceTree = "<group>"; };
+		23407342B26D093AEFC54E141A21DD1C /* Pods-CoursingRiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoursingRiver.release.xcconfig"; sourceTree = "<group>"; };
+		34F4781407A37BD821E4021567CBDD4D /* Pods-CoursingRiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoursingRiver-umbrella.h"; sourceTree = "<group>"; };
+		521AB800D25C98B831CF5B2BC44A43DB /* MarkovModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarkovModel.modulemap; sourceTree = "<group>"; };
+		5F9E99C8EEBF501C3374465F0281C25A /* Pods-CoursingRiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoursingRiver-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A516F9B439BC3C8016953B8B32C3740 /* MarkovModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkovModel.xcconfig; sourceTree = "<group>"; };
+		6C31FCE48A365E58008EB96DF810DA2D /* MarkovModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkovModel-umbrella.h"; sourceTree = "<group>"; };
+		6EA7556151AF0B81165A423383C8B99E /* Pods-CoursingRiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoursingRiver.modulemap"; sourceTree = "<group>"; };
+		92E4B9FBAE0C6E30F4F0019D3AD9FACC /* Pods-CoursingRiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoursingRiver-dummy.m"; sourceTree = "<group>"; };
+		95AD75EC8451BEDC78458646DBDC2705 /* MarkovModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarkovModel.framework; path = MarkovModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B700A3097E31D6FB13E60A0CD63192B0 /* MarkovModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkovModel-dummy.m"; sourceTree = "<group>"; };
+		B8EC0A0894128D13BA59D4295BECF854 /* Pods-CoursingRiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoursingRiver.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0AF96F6E7F1883E7BDB52E3A6DF550 /* MarkovModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarkovModel.h; path = MarkovModel/MarkovModel.h; sourceTree = "<group>"; };
+		C3D4DF829618739AA926DA8BC47FE588 /* MarkovModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkovModel.swift; path = MarkovModel/Sources/MarkovModel.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC7130A39519D85782A6581AE316271E /* Pods_CoursingRiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoursingRiver.framework; path = "Pods-CoursingRiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15DA7D84A7F21C0CA20BAB1E134322E /* Pods-CoursingRiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoursingRiver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E484BD4CFA7095E93ACEEB8DB0B57BCD /* MarkovModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkovModel-prefix.pch"; sourceTree = "<group>"; };
+		E5D420DE3AC038C549D87846657E0749 /* Pods-CoursingRiver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoursingRiver-Info.plist"; sourceTree = "<group>"; };
+		FEFB9C1763112BD6E03D4A9F5D1B7CEB /* MarkovModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarkovModel-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212386F4CCB0D6F1C51700BBB5720C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320B2BEA66AB4970A55EDF637196E966 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB54245DF9298BC170F4DF907A5A790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEFEB9E713187789A01CE4CFA362F5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270D643EC34302D06351EB095B9B97DE /* Pods-CoursingRiver */ = {
+			isa = PBXGroup;
+			children = (
+				6EA7556151AF0B81165A423383C8B99E /* Pods-CoursingRiver.modulemap */,
+				D15DA7D84A7F21C0CA20BAB1E134322E /* Pods-CoursingRiver-acknowledgements.markdown */,
+				5F9E99C8EEBF501C3374465F0281C25A /* Pods-CoursingRiver-acknowledgements.plist */,
+				92E4B9FBAE0C6E30F4F0019D3AD9FACC /* Pods-CoursingRiver-dummy.m */,
+				097EA61B4822A9521421CA74BE7A7F16 /* Pods-CoursingRiver-frameworks.sh */,
+				E5D420DE3AC038C549D87846657E0749 /* Pods-CoursingRiver-Info.plist */,
+				34F4781407A37BD821E4021567CBDD4D /* Pods-CoursingRiver-umbrella.h */,
+				B8EC0A0894128D13BA59D4295BECF854 /* Pods-CoursingRiver.debug.xcconfig */,
+				23407342B26D093AEFC54E141A21DD1C /* Pods-CoursingRiver.release.xcconfig */,
+			);
+			name = "Pods-CoursingRiver";
+			path = "Target Support Files/Pods-CoursingRiver";
+			sourceTree = "<group>";
+		};
+		897D463140B0BE3AEB3346285EE6A85A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AD75EC8451BEDC78458646DBDC2705 /* MarkovModel.framework */,
+				CC7130A39519D85782A6581AE316271E /* Pods_CoursingRiver.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A637DCF48D65826E3707570DD210A410 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				270D643EC34302D06351EB095B9B97DE /* Pods-CoursingRiver */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1757CDFAF57EFF8137EDBACC73EC877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F325E8D2530E1FC290B231AD90A22C49 /* MarkovModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B1757CDFAF57EFF8137EDBACC73EC877 /* Pods */,
+				897D463140B0BE3AEB3346285EE6A85A /* Products */,
+				A637DCF48D65826E3707570DD210A410 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7AB997790D352132F31EC02BBB43BAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				521AB800D25C98B831CF5B2BC44A43DB /* MarkovModel.modulemap */,
+				6A516F9B439BC3C8016953B8B32C3740 /* MarkovModel.xcconfig */,
+				B700A3097E31D6FB13E60A0CD63192B0 /* MarkovModel-dummy.m */,
+				FEFB9C1763112BD6E03D4A9F5D1B7CEB /* MarkovModel-Info.plist */,
+				E484BD4CFA7095E93ACEEB8DB0B57BCD /* MarkovModel-prefix.pch */,
+				6C31FCE48A365E58008EB96DF810DA2D /* MarkovModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarkovModel";
+			sourceTree = "<group>";
+		};
+		F325E8D2530E1FC290B231AD90A22C49 /* MarkovModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC0AF96F6E7F1883E7BDB52E3A6DF550 /* MarkovModel.h */,
+				C3D4DF829618739AA926DA8BC47FE588 /* MarkovModel.swift */,
+				1ED29E9810F7479CDA76A69FD8402697 /* Matrix.swift */,
+				D7AB997790D352132F31EC02BBB43BAA /* Support Files */,
+			);
+			name = MarkovModel;
+			path = MarkovModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49363F361AD6A246E44E911965D839FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A8FCB266EB36BD9982AB4D50B6BE8C /* MarkovModel-umbrella.h in Headers */,
+				F8F4A0FCA4E6E4FF272697458DE4D4FB /* MarkovModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF93C81FCBF5472CB84EBBCED852674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF7CBC44893C64C5FDD2BF41350F282 /* Pods-CoursingRiver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		667E06D3CEEBB28CDE9908AC055C7893 /* Pods-CoursingRiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98AA2B636671FE206C95EDF7EA1F5CD5 /* Build configuration list for PBXNativeTarget "Pods-CoursingRiver" */;
+			buildPhases = (
+				8AF93C81FCBF5472CB84EBBCED852674 /* Headers */,
+				A0B1DC8C44940DE750A2E6E92D59A3EA /* Sources */,
+				6FB54245DF9298BC170F4DF907A5A790 /* Frameworks */,
+				8CA87A6E2F9E5308D5EFD9F5861BD04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC01C8C4F7D033501445E2C15FBC683B /* PBXTargetDependency */,
+			);
+			name = "Pods-CoursingRiver";
+			productName = "Pods-CoursingRiver";
+			productReference = CC7130A39519D85782A6581AE316271E /* Pods_CoursingRiver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A448226EAF53989EF6594CBF526CFF94 /* MarkovModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD409FF22F251F6513BC8778E4768D81 /* Build configuration list for PBXNativeTarget "MarkovModel" */;
+			buildPhases = (
+				49363F361AD6A246E44E911965D839FE /* Headers */,
+				18325C8C9776D14F0316729BE59F513D /* Sources */,
+				212386F4CCB0D6F1C51700BBB5720C97 /* Frameworks */,
+				91036F631920CB3CD26016CAB4BA0F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkovModel;
+			productName = MarkovModel;
+			productReference = 95AD75EC8451BEDC78458646DBDC2705 /* MarkovModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 897D463140B0BE3AEB3346285EE6A85A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A448226EAF53989EF6594CBF526CFF94 /* MarkovModel */,
+				667E06D3CEEBB28CDE9908AC055C7893 /* Pods-CoursingRiver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CA87A6E2F9E5308D5EFD9F5861BD04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91036F631920CB3CD26016CAB4BA0F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18325C8C9776D14F0316729BE59F513D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E1B4F58B1024D06A1BDA0CC270498B /* MarkovModel-dummy.m in Sources */,
+				10484B076F405FD7CB9571328F83BFC0 /* MarkovModel.swift in Sources */,
+				6ED1CE8BB42D9E4E9D63D90DE41EF778 /* Matrix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B1DC8C44940DE750A2E6E92D59A3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701AFD217290878873B66A3F79D9EEC4 /* Pods-CoursingRiver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC01C8C4F7D033501445E2C15FBC683B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarkovModel;
+			target = A448226EAF53989EF6594CBF526CFF94 /* MarkovModel */;
+			targetProxy = D824B4DCCB058B5B4C4731D9ED34E44D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4B4E269E6AA8426B39A98AABFA070E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23407342B26D093AEFC54E141A21DD1C /* Pods-CoursingRiver.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoursingRiver/Pods-CoursingRiver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoursingRiver/Pods-CoursingRiver.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57E7A97DA64E2DC0DD9E23C58AE4DC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A516F9B439BC3C8016953B8B32C3740 /* MarkovModel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarkovModel/MarkovModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkovModel/MarkovModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarkovModel/MarkovModel.modulemap";
+				PRODUCT_MODULE_NAME = MarkovModel;
+				PRODUCT_NAME = MarkovModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		603294A4810F31A8CF8961977597F8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A516F9B439BC3C8016953B8B32C3740 /* MarkovModel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarkovModel/MarkovModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkovModel/MarkovModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarkovModel/MarkovModel.modulemap";
+				PRODUCT_MODULE_NAME = MarkovModel;
+				PRODUCT_NAME = MarkovModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C883665BB2FE0CED314A4A469E4EEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EC0A0894128D13BA59D4295BECF854 /* Pods-CoursingRiver.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoursingRiver/Pods-CoursingRiver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoursingRiver/Pods-CoursingRiver.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98AA2B636671FE206C95EDF7EA1F5CD5 /* Build configuration list for PBXNativeTarget "Pods-CoursingRiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C883665BB2FE0CED314A4A469E4EEAF /* Debug */,
+				4B4E269E6AA8426B39A98AABFA070E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD409FF22F251F6513BC8778E4768D81 /* Build configuration list for PBXNativeTarget "MarkovModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603294A4810F31A8CF8961977597F8DF /* Debug */,
+				57E7A97DA64E2DC0DD9E23C58AE4DC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
